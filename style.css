@@ -1,0 +1,167 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #9d4c4c;
+    background: url('https://wallpapercave.com/wp/wp3207750.jpg') no-repeat center center fixed;
+    background-color:linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#9d4c4c;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color:#9d4c4c;
+}
+
+header p {
+    font-size: 2em;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 1); /* Semi-transparent background */
+    padding: 35px;
+    border-radius: 10px;
+}
+
+#about img {
+    border-radius: 100%;
+    margin-right : 20px;
+    width: 190px;
+    height: 190px;
+}
+
+#about p {
+    font-size: larger;
+}
+
+#Education {
+    margin-bottom: 15px;
+}
+
+#Education ul {
+    list-style-type: none;
+}
+
+#Education ul li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+
+
+/* Skills Section */
+#skills {
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+/* Projects Section */
+#projects {
+    margin-bottom: 20px;
+}
+
+.project {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 18px;
+    border-radius: 8px;
+}
+
+#resume a {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background: #555;
+}
+
+/* Contact Section */
+#contact {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1em;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+}
